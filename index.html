@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <title>AWEPE</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo">AWEPE</a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="bx bx-moon" id="darkmode"></div>
+      </ul>
+    </header>
+    <!-- Home -->
+
+    <section class="home" id="home">
+      <div class="social">
+        <a href="https://github.com/adamwisnup"><i class="bx bxl-github"></i></a>
+        <a href="https://www.instagram.com/adam_wisnup/"><i class="bx bxl-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=6281332938169"><i class="bx bxl-whatsapp"></i></a>
+      </div>
+      <div class="home-img">
+        <img src="/asset/adam.jpg" alt="" />
+      </div>
+      <div class="home-text">
+        <span>Hello, I'm</span>
+        <h1>Adam Wisnu</h1>
+        <h2><b>Fullstack Developer</b></h2>
+        <p>
+          Student of Telkom University <br />
+          Majoring in Telecommunications Engineering <br />
+          who have an interest in IT
+        </p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </section>
+     <!-- About -->
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
+      </div>
+      <!-- About Content -->
+      <div class="about-container">
+        <div class="about-img">
+          <img src="/asset/awp.jpeg" alt="" />
+        </div>
+        <div class="about-text">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+            beatae eius quae ab consequatur est perferendis dicta. Ad
+            repellendus perferendis minus sunt error eos dicta enim accusantium
+            ipsum veniam debitis quasi sint cum fugiat porro quam, blanditiis a
+            ratione quod!
+          </p>
+          <div class="information">
+            <!-- Box 1 -->
+            <div class="info-box">
+              <i class="bx bxs-user"></i>
+              <span>Adam Wisnu Pradana</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="info-box">
+              <i class="bx bxs-phone"></i>
+              <span>+62 81332938169</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="info-box">
+              <i class="bx bxs-envelope"></i>
+              <span>wisnuadam21@gmail.com</span>
+            </div>
+          </div>
+          <a href="#" class="btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section class="skill" id="skill">
+      <div class="heading">
+        <h2>Skills</h2>
+        <span>Our Skills</span>
+      </div>
+      <div class="skill-content">
+        <div class="skill-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="skill-box">
+          <i class="bx bx-cloud-light-rain"></i>
+          <h3>IOT Development</h3>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="skill-box">
+          <i class="bx bx-group"></i>
+          <h3>Tutor & Trainer</h3>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+   	<!--- portfolio--->
+	<section class="portfolio" id="portfolio">
+		<div class="heading">
+        <h2>Portfolio</h2>
+        <span>Our Recent Work</span>
+      </div>
+
+		<div class="portfolio-content">
+      <div class="row">
+        <a href="https://jamescookaja.up.railway.app" target="_blank">
+          <img src="/asset/webca.jpeg">
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Web</h6>
+            </div>
+            <div class="row-icon">
+              <i class='bx bxs-heart'></i>
+            </div>
+          </div>
+          <h3>Web Landing Page</h3>
+        </a>
+			</div>
+
+			<div class="row">
+        <a href="https://adamwisnup.repl.co" target="_blank">
+				<img src="/asset/linktree.jpeg">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Web</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bxs-heart'></i>
+					</div>
+				</div>
+				<h3>Web Linktree HTML</h3>
+        </a>
+			</div>
+
+			<div class="row">
+				<img src="/asset/iot.jpeg">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>IOT</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bxs-heart'></i>
+					</div>
+				</div>
+				<h3>IOT Development</h3>
+			</div>
+		</div>
+	</section>
+
+      <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2>Contact</h2>
+        <span>Connect With Us</span>
+      </div>
+      <div class="contact-form">
+        <form  action="https://formspree.io/f/meqwjbwg" method="POST">
+          <input type="text" name="username"vid="name" placeholder="Your Name"/>
+          <input type="email" name="email" id="email" placeholder="Your Email"/>
+          <input type="text" name="phone" id="phone" placeholder="Your Phone Number"/>
+          <textarea name="message" placeholder="Write Your Message Here..."></textarea>
+          <button type="submit" onsubmit="reset();" class="contact-button">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      </div>
+      <div class="footer">
+        <div class="footer-social">
+          <a href="https://github.com/adamwisnup"><i class="bx bxl-github"></i></a>
+          <a href="https://twitter.com/Madanaa05?t=OCMCMzD_ACJbfeEFrPV1oA&s=09"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/adam_wisnup/"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/adam-wisnu-pradana-405175258/"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <p>Copyright <i class="bx bx-copyright"></i> 2022 <a href="">Adam Wisnu Pradana</a> | All Right Reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
