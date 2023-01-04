@@ -26,23 +26,10 @@ darkmode.onclick = () => {
     document.body.classList.remove("active");
   }
 };
-// function sendEmail() {
-//   Email.send({
-//     secureToken: "9e6fcf46-4a55-40bc-ba4c-f8b2de9557f5",
-//     Host: "smtp.elasticemail.com",
-//     Username: "maucuan429@gmail.com",
-//     Password: "5665BC9091201161010B4F57436408663EF5",
-//     To: "maucuan429@gmail.com",
-//     From: document.getElementById("email").value,
-//     Subject: "New Contact From Enquiry",
-//     Body:
-//       "Name: " +
-//       document.getElementById("name").value +
-//       "<br> Email: " +
-//       document.getElementById("email").value +
-//       "<br> Phone: " +
-//       document.getElementById("email").value +
-//       "<br> Message: " +
-//       document.getElementById("email").value,
-//   }).then((message) => alert("Message Sent Succesfully!"));
-// }
+
+function eraseText() {
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("phone").value = "";
+  document.getElementById("message").value = "";
+}
