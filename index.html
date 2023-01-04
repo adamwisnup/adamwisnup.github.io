@@ -63,11 +63,7 @@
         </div>
         <div class="about-text">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-            beatae eius quae ab consequatur est perferendis dicta. Ad
-            repellendus perferendis minus sunt error eos dicta enim accusantium
-            ipsum veniam debitis quasi sint cum fugiat porro quam, blanditiis a
-            ratione quod!
+            I am Adam Wisnu Pradana, a student at Telkom University, majoring in telecommunications engineering. Now I am taking semester 3. One of the organizations I join is the Basic Computer Laboratory Assistant whose job is to teach Algorithm and Programming practicum. In addition, I participate in several Student Activity Units, namely UKM Telkom University Badminton Club, UKM Central Computer Improvement, and Student Family UKM Madiun.
           </p>
           <div class="information">
             <!-- Box 1 -->
@@ -177,12 +173,13 @@
         <span>Connect With Us</span>
       </div>
       <div class="contact-form">
-        <form  action="https://formspree.io/f/meqwjbwg" method="POST">
-          <input type="text" name="username"vid="name" placeholder="Your Name"/>
+        <form action="https://formspree.io/f/meqwjbwg" method="POST">
+          <input type="text" name="username"id="name" placeholder="Your Name"/>
           <input type="email" name="email" id="email" placeholder="Your Email"/>
           <input type="text" name="phone" id="phone" placeholder="Your Phone Number"/>
-          <textarea name="message" placeholder="Write Your Message Here..."></textarea>
-          <button type="submit" onsubmit="reset();" class="contact-button">Submit</button>
+          <textarea id="message" name="message" placeholder="Write Your Message Here..."></textarea>
+          <button type="button" onclick="eraseText();" class="contact-button">Clear</button>
+          <button type="submit" class="contact-button">Submit</button>
         </form>
       </div>
     </section>
