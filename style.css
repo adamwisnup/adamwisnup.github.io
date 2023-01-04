@@ -76,8 +76,12 @@ header.shadow {
   color: var(--text-color);
   font-weight: 500;
 }
+.navbar li:hover {
+  cursor: pointer;
+  transform: scale(1.05) translateY(-5px);
+}
 .navbar a:hover {
-  color: var(--hover);
+  color: #22cf91;
 }
 #menu-icon {
   font-size: 24px;
