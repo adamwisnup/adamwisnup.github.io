@@ -76,11 +76,13 @@ header.shadow {
   color: var(--text-color);
   font-weight: 500;
 }
-.navbar li:hover {
+.navbar li:hover,
+.navbar div:hover {
   cursor: pointer;
   transform: scale(1.05) translateY(-5px);
 }
-.navbar a:hover {
+.navbar a:hover,
+.navbar div:hover {
   color: #22cf91;
 }
 #menu-icon {
