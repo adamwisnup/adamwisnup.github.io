@@ -124,6 +124,7 @@ header.shadow {
 .home-text h2 {
   font-size: 1.1rem;
   font-weight: 400;
+  color: var(--main-color);
 }
 .home-text p {
   font-size: var(--p-font);
