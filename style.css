@@ -279,7 +279,7 @@ header.shadow {
 }
 .row:hover {
   cursor: pointer;
-  transform: scale(1.05) translateY(-5px);
+  transform: scale(1.05) translateY(-20px) !important;
 }
 /* contact */
 .contact-form {
